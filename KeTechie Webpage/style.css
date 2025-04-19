@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #af2aac;
+    padding: 10px;
+}
+
+header img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #ffcc00;
+}
