@@ -21,7 +21,7 @@ body {
     max-width: 95%;
     background: linear-gradient(135deg, #2b2b2b, #1e1e1e);
     border-radius: 15px;
-    box-shadow: 0 10px 40px rgba(0, 255, 255, 0.5);
+    box-shadow: 0 10px 40px rgba(9, 255, 0, 0.56);
     display: flex;
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -29,14 +29,14 @@ body {
 
 .left-panel {
     flex: 1;
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(135deg, #122a13, #20461e, #246625);
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #00ffff;
+    color: #33ff00;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -56,8 +56,8 @@ body {
 .left-panel img {
     width: 80%;
     max-width: 250px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.5);
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 255, 21, 0.5);
     animation: float 3s ease-in-out infinite;
 }
 
@@ -80,7 +80,7 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
-    color: #00ffff;
+    color: #33ff00;
 }
 
 .form-group {
@@ -91,7 +91,7 @@ body {
 .form-group input {
     width: 100%;
     padding: 12px 15px;
-    border: 1px solid #00ffff;
+    border: 1px solid #33ff00;
     border-radius: 5px;
     font-size: 16px;
     outline: none;
@@ -110,7 +110,7 @@ body {
     top: 50%;
     right: 15px;
     transform: translateY(-50%);
-    color: #00ffff;
+    color: #33ff00;
 }
 
 .form-group button {
@@ -118,7 +118,7 @@ body {
     padding: 12px;
     border: none;
     border-radius: 25px;
-    background: linear-gradient(135deg, #00ffff, #00ff99);
+    background: linear-gradient(135deg, #33ff00, #00ff99);
     color: #000;
     font-size: 16px;
     font-weight: bold;
@@ -127,7 +127,7 @@ body {
 }
 
 .form-group button:hover {
-    background: linear-gradient(135deg, #00ff99, #00ffff);
+    background: linear-gradient(135deg, #00ff99, #33ff00);
     transform: translateY(-2px);
 }
 
@@ -136,7 +136,7 @@ body {
     cursor: pointer;
     text-align: center;
     margin-top: 15px;
-    color: #00ffff;
+    color: #33ff00;
     text-decoration: underline;
 }
 
